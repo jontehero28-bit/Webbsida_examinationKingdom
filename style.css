@@ -1,0 +1,87 @@
+body{
+    background-image: url("kingdom.bkg.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    display: flexbox;
+    text-align: center;
+    margin-top: 20px;
+    size-adjust: 30vw;
+    justify-items: center;
+}
+header a img {
+    width: 30vw;
+}
+body header {
+    border-bottom: 10px;
+}
+nav{
+    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+main {
+    background-color:rgb(90, 90, 90, .8);
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 2vh;
+    border-radius: 15px;
+    height: 100vh;
+    margin-bottom: 10vh;
+    max-height: max-content;
+}
+
+
+.mainInfo{
+    text-align: center;
+}
+.mainPic{
+    justify-items: center;
+    align-items: center;
+}
+.mainPic img {
+    max-height: 35vh;
+    flex-wrap: nowrap;
+}
+
+
+.ClassicPic img{
+    max-height: 30vh;
+}
+
+.ClassicInfo{
+    text-align: center;
+}
+
+.TwoBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.TwoBox img{
+    max-height: 30vh;
+}
+
+.NewBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    padding-left: 100px;
+    margin: 10px;
+}
+
+.NewBox img{
+    max-height: 30vh;
+}
+
+.NewInfo{
+    text-align: center;
+    margin-right: -10px;
+}
